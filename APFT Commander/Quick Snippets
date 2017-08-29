@@ -1,0 +1,7 @@
+#Quick NSLog cmd
+
+#add this to the interface
+static BOOL logging = YES;
+
+#add this in your code
+logging ? NSLog(@"%s:line:%d", __func__, __LINE__) : nil;

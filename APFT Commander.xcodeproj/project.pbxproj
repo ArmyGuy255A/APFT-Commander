@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554B0B381A34E612005DD7D9 /* MenuChoices(original).plist in Resources */ = {isa = PBXBuildFile; fileRef = 554B0B371A34E612005DD7D9 /* MenuChoices(original).plist */; };
+		554B0B3C1A353DF3005DD7D9 /* PADEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B0B3B1A353DF3005DD7D9 /* PADEventTableViewController.m */; };
+		554B0B3F1A353E0E005DD7D9 /* PADEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B0B3E1A353E0E005DD7D9 /* PADEventTableViewCell.m */; };
+		554B0B421A353E3B005DD7D9 /* PADEventInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B0B411A353E3B005DD7D9 /* PADEventInfoViewController.m */; };
+		554B0B441A354B3E005DD7D9 /* PADActionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B0B431A354B3E005DD7D9 /* PADActionClass.m */; };
+		55665A151A309BDC00BA06EF /* PADSoldierTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55665A141A309BDC00BA06EF /* PADSoldierTableViewController.m */; };
+		55665A181A30A2A700BA06EF /* PADSoldierTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55665A171A30A2A700BA06EF /* PADSoldierTableViewCell.m */; };
+		55665A1B1A31446000BA06EF /* PADSoldierInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55665A1A1A31446000BA06EF /* PADSoldierInfoViewController.m */; };
+		558A860C1A2CA01600367592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 558A860B1A2CA01600367592 /* main.m */; };
+		558A860F1A2CA01600367592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 558A860E1A2CA01600367592 /* AppDelegate.m */; };
+		558A86121A2CA01600367592 /* soldiers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 558A86101A2CA01600367592 /* soldiers.xcdatamodeld */; };
+		558A86181A2CA01600367592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558A86161A2CA01600367592 /* Main.storyboard */; };
+		558A861A1A2CA01600367592 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558A86191A2CA01600367592 /* Images.xcassets */; };
+		558A861D1A2CA01600367592 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558A861B1A2CA01600367592 /* LaunchScreen.xib */; };
+		558A86291A2CA01600367592 /* APFT_CommanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 558A86281A2CA01600367592 /* APFT_CommanderTests.m */; };
+		558A86461A2CA24300367592 /* 17.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A863C1A2CA24300367592 /* 17.plist */; };
+		558A86471A2CA24300367592 /* 22.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A863D1A2CA24300367592 /* 22.plist */; };
+		558A86481A2CA24300367592 /* 27.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A863E1A2CA24300367592 /* 27.plist */; };
+		558A86491A2CA24300367592 /* 32.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A863F1A2CA24300367592 /* 32.plist */; };
+		558A864A1A2CA24300367592 /* 37.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A86401A2CA24300367592 /* 37.plist */; };
+		558A864B1A2CA24300367592 /* 42.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A86411A2CA24300367592 /* 42.plist */; };
+		558A864C1A2CA24300367592 /* 47.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A86421A2CA24300367592 /* 47.plist */; };
+		558A864D1A2CA24300367592 /* 52.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A86431A2CA24300367592 /* 52.plist */; };
+		558A864E1A2CA24300367592 /* 57.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A86441A2CA24300367592 /* 57.plist */; };
+		558A864F1A2CA24300367592 /* 62.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A86451A2CA24300367592 /* 62.plist */; };
+		558A86531A2CA2C900367592 /* PADCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 558A86521A2CA2C900367592 /* PADCalc.m */; };
+		558A86561A2CA41B00367592 /* PADNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558A86551A2CA41B00367592 /* PADNavigationController.m */; };
+		558A86591A2CA43900367592 /* PADCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558A86581A2CA43900367592 /* PADCollectionViewController.m */; };
+		558A865B1A2D631000367592 /* Quick Snippets in Resources */ = {isa = PBXBuildFile; fileRef = 558A865A1A2D631000367592 /* Quick Snippets */; };
+		558A865D1A2DF63900367592 /* MenuChoices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558A865C1A2DF63900367592 /* MenuChoices.plist */; };
+		558A86601A2EBB0700367592 /* PADCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 558A865F1A2EBB0700367592 /* PADCollectionViewCell.m */; };
+		55BBA2641A3E77630018424C /* PADCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BBA2631A3E77630018424C /* PADCalculatorViewController.m */; };
+		55BBA2671A41CC7A0018424C /* PADLabeledPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BBA2661A41CC7A0018424C /* PADLabeledPickerView.m */; };
+		55F066601A3551D9004DFC81 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F0665F1A3551D9004DFC81 /* Event.m */; };
+		55F066631A3551DA004DFC81 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F066621A3551DA004DFC81 /* Soldier.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		558A86231A2CA01600367592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 558A85FE1A2CA01600367592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558A86051A2CA01600367592;
+			remoteInfo = "APFT Commander";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		554B0B371A34E612005DD7D9 /* MenuChoices(original).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MenuChoices(original).plist"; sourceTree = "<group>"; };
+		554B0B3A1A353DF3005DD7D9 /* PADEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADEventTableViewController.h; sourceTree = "<group>"; };
+		554B0B3B1A353DF3005DD7D9 /* PADEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADEventTableViewController.m; sourceTree = "<group>"; };
+		554B0B3D1A353E0E005DD7D9 /* PADEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADEventTableViewCell.h; sourceTree = "<group>"; };
+		554B0B3E1A353E0E005DD7D9 /* PADEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADEventTableViewCell.m; sourceTree = "<group>"; };
+		554B0B401A353E3B005DD7D9 /* PADEventInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADEventInfoViewController.h; sourceTree = "<group>"; };
+		554B0B411A353E3B005DD7D9 /* PADEventInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADEventInfoViewController.m; sourceTree = "<group>"; };
+		554B0B431A354B3E005DD7D9 /* PADActionClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADActionClass.m; sourceTree = "<group>"; };
+		55665A101A2ECBDE00BA06EF /* ptBadge.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ptBadge.psd; sourceTree = "<group>"; };
+		55665A111A30948600BA06EF /* PADActionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADActionClass.h; sourceTree = "<group>"; };
+		55665A131A309BDC00BA06EF /* PADSoldierTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADSoldierTableViewController.h; sourceTree = "<group>"; };
+		55665A141A309BDC00BA06EF /* PADSoldierTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADSoldierTableViewController.m; sourceTree = "<group>"; };
+		55665A161A30A2A700BA06EF /* PADSoldierTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADSoldierTableViewCell.h; sourceTree = "<group>"; };
+		55665A171A30A2A700BA06EF /* PADSoldierTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADSoldierTableViewCell.m; sourceTree = "<group>"; };
+		55665A191A31446000BA06EF /* PADSoldierInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADSoldierInfoViewController.h; sourceTree = "<group>"; };
+		55665A1A1A31446000BA06EF /* PADSoldierInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADSoldierInfoViewController.m; sourceTree = "<group>"; };
+		558A86061A2CA01600367592 /* APFT Commander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APFT Commander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558A860A1A2CA01600367592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558A860B1A2CA01600367592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		558A860D1A2CA01600367592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		558A860E1A2CA01600367592 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		558A86111A2CA01600367592 /* soldiers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = soldiers.xcdatamodel; sourceTree = "<group>"; };
+		558A86171A2CA01600367592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		558A86191A2CA01600367592 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		558A861C1A2CA01600367592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		558A86221A2CA01600367592 /* APFT CommanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APFT CommanderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558A86271A2CA01600367592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558A86281A2CA01600367592 /* APFT_CommanderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APFT_CommanderTests.m; sourceTree = "<group>"; };
+		558A863C1A2CA24300367592 /* 17.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 17.plist; sourceTree = "<group>"; };
+		558A863D1A2CA24300367592 /* 22.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 22.plist; sourceTree = "<group>"; };
+		558A863E1A2CA24300367592 /* 27.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 27.plist; sourceTree = "<group>"; };
+		558A863F1A2CA24300367592 /* 32.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 32.plist; sourceTree = "<group>"; };
+		558A86401A2CA24300367592 /* 37.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 37.plist; sourceTree = "<group>"; };
+		558A86411A2CA24300367592 /* 42.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 42.plist; sourceTree = "<group>"; };
+		558A86421A2CA24300367592 /* 47.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 47.plist; sourceTree = "<group>"; };
+		558A86431A2CA24300367592 /* 52.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 52.plist; sourceTree = "<group>"; };
+		558A86441A2CA24300367592 /* 57.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 57.plist; sourceTree = "<group>"; };
+		558A86451A2CA24300367592 /* 62.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 62.plist; sourceTree = "<group>"; };
+		558A86511A2CA2C900367592 /* PADCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADCalc.h; sourceTree = "<group>"; };
+		558A86521A2CA2C900367592 /* PADCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADCalc.m; sourceTree = "<group>"; };
+		558A86541A2CA41B00367592 /* PADNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADNavigationController.h; sourceTree = "<group>"; };
+		558A86551A2CA41B00367592 /* PADNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADNavigationController.m; sourceTree = "<group>"; };
+		558A86571A2CA43900367592 /* PADCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADCollectionViewController.h; sourceTree = "<group>"; };
+		558A86581A2CA43900367592 /* PADCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADCollectionViewController.m; sourceTree = "<group>"; };
+		558A865A1A2D631000367592 /* Quick Snippets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Quick Snippets"; sourceTree = "<group>"; };
+		558A865C1A2DF63900367592 /* MenuChoices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuChoices.plist; sourceTree = "<group>"; };
+		558A865E1A2EBB0700367592 /* PADCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADCollectionViewCell.h; sourceTree = "<group>"; };
+		558A865F1A2EBB0700367592 /* PADCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADCollectionViewCell.m; sourceTree = "<group>"; };
+		55BBA2621A3E77630018424C /* PADCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADCalculatorViewController.h; sourceTree = "<group>"; };
+		55BBA2631A3E77630018424C /* PADCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADCalculatorViewController.m; sourceTree = "<group>"; };
+		55BBA2651A41CC7A0018424C /* PADLabeledPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADLabeledPickerView.h; sourceTree = "<group>"; };
+		55BBA2661A41CC7A0018424C /* PADLabeledPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADLabeledPickerView.m; sourceTree = "<group>"; };
+		55F0665E1A3551D9004DFC81 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Event.h; sourceTree = "<group>"; };
+		55F0665F1A3551D9004DFC81 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = ../Event.m; sourceTree = "<group>"; };
+		55F066611A3551DA004DFC81 /* Soldier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Soldier.h; path = ../Soldier.h; sourceTree = "<group>"; };
+		55F066621A3551DA004DFC81 /* Soldier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Soldier.m; path = ../Soldier.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558A86031A2CA01600367592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558A861F1A2CA01600367592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554B0B391A353D45005DD7D9 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				554B0B3A1A353DF3005DD7D9 /* PADEventTableViewController.h */,
+				554B0B3B1A353DF3005DD7D9 /* PADEventTableViewController.m */,
+				554B0B3D1A353E0E005DD7D9 /* PADEventTableViewCell.h */,
+				554B0B3E1A353E0E005DD7D9 /* PADEventTableViewCell.m */,
+				554B0B401A353E3B005DD7D9 /* PADEventInfoViewController.h */,
+				554B0B411A353E3B005DD7D9 /* PADEventInfoViewController.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		55665A1D1A315AF300BA06EF /* Soldiers */ = {
+			isa = PBXGroup;
+			children = (
+				55665A131A309BDC00BA06EF /* PADSoldierTableViewController.h */,
+				55665A141A309BDC00BA06EF /* PADSoldierTableViewController.m */,
+				55665A161A30A2A700BA06EF /* PADSoldierTableViewCell.h */,
+				55665A171A30A2A700BA06EF /* PADSoldierTableViewCell.m */,
+				55665A191A31446000BA06EF /* PADSoldierInfoViewController.h */,
+				55665A1A1A31446000BA06EF /* PADSoldierInfoViewController.m */,
+			);
+			name = Soldiers;
+			sourceTree = "<group>";
+		};
+		558A85FD1A2CA01600367592 = {
+			isa = PBXGroup;
+			children = (
+				558A86081A2CA01600367592 /* APFT Commander */,
+				558A86251A2CA01600367592 /* APFT CommanderTests */,
+				558A86071A2CA01600367592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558A86071A2CA01600367592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558A86061A2CA01600367592 /* APFT Commander.app */,
+				558A86221A2CA01600367592 /* APFT CommanderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558A86081A2CA01600367592 /* APFT Commander */ = {
+			isa = PBXGroup;
+			children = (
+				558A860D1A2CA01600367592 /* AppDelegate.h */,
+				558A860E1A2CA01600367592 /* AppDelegate.m */,
+				558A861B1A2CA01600367592 /* LaunchScreen.xib */,
+				558A86501A2CA2B400367592 /* Classes */,
+				558A86321A2CA16500367592 /* Core Data */,
+				558A86391A2CA1B900367592 /* View Controllers */,
+				558A863A1A2CA20700367592 /* Resources */,
+				558A86091A2CA01600367592 /* Supporting Files */,
+			);
+			path = "APFT Commander";
+			sourceTree = "<group>";
+		};
+		558A86091A2CA01600367592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				558A860A1A2CA01600367592 /* Info.plist */,
+				558A860B1A2CA01600367592 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		558A86251A2CA01600367592 /* APFT CommanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				558A86281A2CA01600367592 /* APFT_CommanderTests.m */,
+				558A86261A2CA01600367592 /* Supporting Files */,
+			);
+			path = "APFT CommanderTests";
+			sourceTree = "<group>";
+		};
+		558A86261A2CA01600367592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				558A86271A2CA01600367592 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		558A86321A2CA16500367592 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				558A86101A2CA01600367592 /* soldiers.xcdatamodeld */,
+				55F066611A3551DA004DFC81 /* Soldier.h */,
+				55F066621A3551DA004DFC81 /* Soldier.m */,
+				55F0665E1A3551D9004DFC81 /* Event.h */,
+				55F0665F1A3551D9004DFC81 /* Event.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		558A86391A2CA1B900367592 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				558A86161A2CA01600367592 /* Main.storyboard */,
+				558A86541A2CA41B00367592 /* PADNavigationController.h */,
+				558A86551A2CA41B00367592 /* PADNavigationController.m */,
+				558A86571A2CA43900367592 /* PADCollectionViewController.h */,
+				558A86581A2CA43900367592 /* PADCollectionViewController.m */,
+				558A865E1A2EBB0700367592 /* PADCollectionViewCell.h */,
+				558A865F1A2EBB0700367592 /* PADCollectionViewCell.m */,
+				554B0B391A353D45005DD7D9 /* Events */,
+				55665A1D1A315AF300BA06EF /* Soldiers */,
+				55BBA2611A3E770C0018424C /* Calculator */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		558A863A1A2CA20700367592 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55665A101A2ECBDE00BA06EF /* ptBadge.psd */,
+				558A865A1A2D631000367592 /* Quick Snippets */,
+				558A86191A2CA01600367592 /* Images.xcassets */,
+				558A863B1A2CA22300367592 /* APFT Tables */,
+				558A865C1A2DF63900367592 /* MenuChoices.plist */,
+				554B0B371A34E612005DD7D9 /* MenuChoices(original).plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		558A863B1A2CA22300367592 /* APFT Tables */ = {
+			isa = PBXGroup;
+			children = (
+				558A863C1A2CA24300367592 /* 17.plist */,
+				558A863D1A2CA24300367592 /* 22.plist */,
+				558A863E1A2CA24300367592 /* 27.plist */,
+				558A863F1A2CA24300367592 /* 32.plist */,
+				558A86401A2CA24300367592 /* 37.plist */,
+				558A86411A2CA24300367592 /* 42.plist */,
+				558A86421A2CA24300367592 /* 47.plist */,
+				558A86431A2CA24300367592 /* 52.plist */,
+				558A86441A2CA24300367592 /* 57.plist */,
+				558A86451A2CA24300367592 /* 62.plist */,
+			);
+			name = "APFT Tables";
+			sourceTree = "<group>";
+		};
+		558A86501A2CA2B400367592 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				558A86511A2CA2C900367592 /* PADCalc.h */,
+				558A86521A2CA2C900367592 /* PADCalc.m */,
+				55665A111A30948600BA06EF /* PADActionClass.h */,
+				554B0B431A354B3E005DD7D9 /* PADActionClass.m */,
+				55BBA2651A41CC7A0018424C /* PADLabeledPickerView.h */,
+				55BBA2661A41CC7A0018424C /* PADLabeledPickerView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		55BBA2611A3E770C0018424C /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				55BBA2621A3E77630018424C /* PADCalculatorViewController.h */,
+				55BBA2631A3E77630018424C /* PADCalculatorViewController.m */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558A86051A2CA01600367592 /* APFT Commander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558A862C1A2CA01600367592 /* Build configuration list for PBXNativeTarget "APFT Commander" */;
+			buildPhases = (
+				558A86021A2CA01600367592 /* Sources */,
+				558A86031A2CA01600367592 /* Frameworks */,
+				558A86041A2CA01600367592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APFT Commander";
+			productName = "APFT Commander";
+			productReference = 558A86061A2CA01600367592 /* APFT Commander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		558A86211A2CA01600367592 /* APFT CommanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558A862F1A2CA01600367592 /* Build configuration list for PBXNativeTarget "APFT CommanderTests" */;
+			buildPhases = (
+				558A861E1A2CA01600367592 /* Sources */,
+				558A861F1A2CA01600367592 /* Frameworks */,
+				558A86201A2CA01600367592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558A86241A2CA01600367592 /* PBXTargetDependency */,
+			);
+			name = "APFT CommanderTests";
+			productName = "APFT CommanderTests";
+			productReference = 558A86221A2CA01600367592 /* APFT CommanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558A85FE1A2CA01600367592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PAD;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Phillip Dieppa";
+				TargetAttributes = {
+					558A86051A2CA01600367592 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					558A86211A2CA01600367592 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 558A86051A2CA01600367592;
+					};
+				};
+			};
+			buildConfigurationList = 558A86011A2CA01600367592 /* Build configuration list for PBXProject "APFT Commander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 558A85FD1A2CA01600367592;
+			productRefGroup = 558A86071A2CA01600367592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558A86051A2CA01600367592 /* APFT Commander */,
+				558A86211A2CA01600367592 /* APFT CommanderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558A86041A2CA01600367592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558A86181A2CA01600367592 /* Main.storyboard in Resources */,
+				558A865D1A2DF63900367592 /* MenuChoices.plist in Resources */,
+				558A865B1A2D631000367592 /* Quick Snippets in Resources */,
+				558A86481A2CA24300367592 /* 27.plist in Resources */,
+				558A861D1A2CA01600367592 /* LaunchScreen.xib in Resources */,
+				558A864D1A2CA24300367592 /* 52.plist in Resources */,
+				558A864F1A2CA24300367592 /* 62.plist in Resources */,
+				558A86461A2CA24300367592 /* 17.plist in Resources */,
+				558A864B1A2CA24300367592 /* 42.plist in Resources */,
+				558A864A1A2CA24300367592 /* 37.plist in Resources */,
+				558A86491A2CA24300367592 /* 32.plist in Resources */,
+				558A861A1A2CA01600367592 /* Images.xcassets in Resources */,
+				558A86471A2CA24300367592 /* 22.plist in Resources */,
+				558A864E1A2CA24300367592 /* 57.plist in Resources */,
+				554B0B381A34E612005DD7D9 /* MenuChoices(original).plist in Resources */,
+				558A864C1A2CA24300367592 /* 47.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558A86201A2CA01600367592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558A86021A2CA01600367592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55665A151A309BDC00BA06EF /* PADSoldierTableViewController.m in Sources */,
+				55F066631A3551DA004DFC81 /* Soldier.m in Sources */,
+				55665A181A30A2A700BA06EF /* PADSoldierTableViewCell.m in Sources */,
+				55665A1B1A31446000BA06EF /* PADSoldierInfoViewController.m in Sources */,
+				55BBA2641A3E77630018424C /* PADCalculatorViewController.m in Sources */,
+				55F066601A3551D9004DFC81 /* Event.m in Sources */,
+				558A86591A2CA43900367592 /* PADCollectionViewController.m in Sources */,
+				558A86121A2CA01600367592 /* soldiers.xcdatamodeld in Sources */,
+				558A860F1A2CA01600367592 /* AppDelegate.m in Sources */,
+				558A86601A2EBB0700367592 /* PADCollectionViewCell.m in Sources */,
+				554B0B421A353E3B005DD7D9 /* PADEventInfoViewController.m in Sources */,
+				558A86531A2CA2C900367592 /* PADCalc.m in Sources */,
+				558A860C1A2CA01600367592 /* main.m in Sources */,
+				554B0B3C1A353DF3005DD7D9 /* PADEventTableViewController.m in Sources */,
+				55BBA2671A41CC7A0018424C /* PADLabeledPickerView.m in Sources */,
+				554B0B3F1A353E0E005DD7D9 /* PADEventTableViewCell.m in Sources */,
+				554B0B441A354B3E005DD7D9 /* PADActionClass.m in Sources */,
+				558A86561A2CA41B00367592 /* PADNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558A861E1A2CA01600367592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558A86291A2CA01600367592 /* APFT_CommanderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		558A86241A2CA01600367592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558A86051A2CA01600367592 /* APFT Commander */;
+			targetProxy = 558A86231A2CA01600367592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		558A86161A2CA01600367592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558A86171A2CA01600367592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		558A861B1A2CA01600367592 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558A861C1A2CA01600367592 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		558A862A1A2CA01600367592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBC_WARNINGS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		558A862B1A2CA01600367592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBC_WARNINGS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558A862D1A2CA01600367592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "APFT Commander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "APFT Commander";
+			};
+			name = Debug;
+		};
+		558A862E1A2CA01600367592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "APFT Commander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "APFT Commander";
+			};
+			name = Release;
+		};
+		558A86301A2CA01600367592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APFT CommanderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "APFT CommanderTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APFT Commander.app/APFT Commander";
+			};
+			name = Debug;
+		};
+		558A86311A2CA01600367592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APFT CommanderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "APFT CommanderTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APFT Commander.app/APFT Commander";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558A86011A2CA01600367592 /* Build configuration list for PBXProject "APFT Commander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558A862A1A2CA01600367592 /* Debug */,
+				558A862B1A2CA01600367592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558A862C1A2CA01600367592 /* Build configuration list for PBXNativeTarget "APFT Commander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558A862D1A2CA01600367592 /* Debug */,
+				558A862E1A2CA01600367592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558A862F1A2CA01600367592 /* Build configuration list for PBXNativeTarget "APFT CommanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558A86301A2CA01600367592 /* Debug */,
+				558A86311A2CA01600367592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		558A86101A2CA01600367592 /* soldiers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				558A86111A2CA01600367592 /* soldiers.xcdatamodel */,
+			);
+			currentVersion = 558A86111A2CA01600367592 /* soldiers.xcdatamodel */;
+			path = soldiers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 558A85FE1A2CA01600367592 /* Project object */;
+}
